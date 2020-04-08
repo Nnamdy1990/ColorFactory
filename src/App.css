@@ -6,12 +6,14 @@
 .header {
   background-color: rgb(17, 5, 5);
   width: 100%;
-  height: 20vh;
+  height: 30vh;
   text-align: center;
 }
 .header1 {
   text-align: center;
   color: aliceblue;
+  font-size: 1.5rem;
+  padding-top: 20px;
 }
 .red1 {
   background-color: red;
@@ -23,29 +25,12 @@
   font-size: xx-large;
   color: white;
 }
-.blue1 {
-  background-color: blue;
-  width: 100%;
-  height: 80vh;
-}
-.blue {
-  text-align: center;
-  font-size: xx-large;
-  color: white;
-}
-.green1 {
-  background-color: green;
-  width: 100%;
-  height: 80vh;
-}
-.green {
-  text-align: center;
-  font-size: xx-large;
-  color: white;
-}
+
 .Link {
   text-align: center;
 }
 .Link2 {
   color: aliceblue;
+  font-size: xx-large;
+  font-weight: bold;
 }
