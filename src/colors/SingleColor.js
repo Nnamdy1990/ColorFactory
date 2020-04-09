@@ -3,8 +3,9 @@ import { useParams, useHistory } from "react-router-dom";
 
 export default function SingleColor({ colors }) {
   const { color } = useParams();
+  console.log(color);
   const { push } = useHistory();
-  const isValid = colors.includes(color.toLowerCase());
+  const isValid = colors.includes(color);
   useEffect(() => {
     if (!isValid) {
       push("/colors");

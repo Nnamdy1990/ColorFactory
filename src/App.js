@@ -7,7 +7,7 @@ import AddColor from "./component/AddColor";
 import SingleColor from "./colors/SingleColor";
 
 function App() {
-  const [colors, setColors] = useState(["red", "blue", "green"]);
+  const [colors, setColors] = useState(["Red", "Blue", "Green"]);
   return (
     <Router>
       <Header />
